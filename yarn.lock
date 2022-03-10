@@ -2767,11 +2767,6 @@
     tsoa "^3.4.0"
     ws "^8.3.0"
 
-"@shapeshiftoss/caip@^1.11.1":
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/@shapeshiftoss/caip/-/caip-1.13.0.tgz#8c9b2d07223cb2e94e5b9f2b5cec49b77d606cfd"
-  integrity sha512-dvp+DFrl05PA0J2VmuuH7rjTMz6HREIVinWzL4pKRDkZ2zrt9nuqAbSehQoiJOd1XZzTd2viSu6LmogFUQdSFg==
-
 "@shapeshiftoss/chain-adapters@^1.31.1":
   version "1.36.0"
   resolved "https://registry.yarnpkg.com/@shapeshiftoss/chain-adapters/-/chain-adapters-1.36.0.tgz#f9993599eae20d68cdc4e04e71de89fb82567e34"
@@ -2871,6 +2866,11 @@
     google-protobuf "^3.17.0"
     long "^4.0.0"
 
+"@shapeshiftoss/types@^1.21.1":
+  version "1.26.0"
+  resolved "https://registry.yarnpkg.com/@shapeshiftoss/types/-/types-1.26.0.tgz#ceed3c05a1137b39e84cfb868a7154220874f356"
+  integrity sha512-ed8fXewDYXdoiAzfiBSLAWrSVu79FHdCLHQQIqwB5kdIkSnH3Nf2j7K5IAFWhB2ndnlXvP3sAF3lfKQzDNElxQ==
+
 "@shapeshiftoss/unchained-client@^6.0.0":
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/@shapeshiftoss/unchained-client/-/unchained-client-6.0.0.tgz#237be630f98c7b45331134c2673d55eb67064376"
@@ -2882,19 +2882,6 @@
     "@yfi/sdk" "^1.0.30"
     bignumber.js "^9.0.1"
     ethers "^5.5.3"
-
-"@shapeshiftoss/types@^1.21.1", "@shapeshiftoss/types@^1.23.0":
-  version "1.26.0"
-  resolved "https://registry.yarnpkg.com/@shapeshiftoss/types/-/types-1.26.0.tgz#ceed3c05a1137b39e84cfb868a7154220874f356"
-  integrity sha512-ed8fXewDYXdoiAzfiBSLAWrSVu79FHdCLHQQIqwB5kdIkSnH3Nf2j7K5IAFWhB2ndnlXvP3sAF3lfKQzDNElxQ==
-
-"@shapeshiftoss/unchained-client@^5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@shapeshiftoss/unchained-client/-/unchained-client-5.2.0.tgz#c503458b435126784d73495da5e6a8056ead8ae5"
-  integrity sha512-BHltUjxGoSCa/NAiWCIvxCyTjFKBSY4Z7d40YKYy3c0KIrku2ekGFtgha7ndnxDHMVfK2jA2ix07ofLfEXtCag==
-  dependencies:
-    "@shapeshiftoss/blockbook" "^5.2.0"
-    "@shapeshiftoss/unchained-tx-parser" "^5.2.0"
     isomorphic-ws "^4.0.1"
     ws "^8.3.0"
 
